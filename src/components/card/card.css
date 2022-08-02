@@ -1,0 +1,120 @@
+.card {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 20px;
+  }
+
+.card img {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2%;
+    align-self: center;
+  }
+
+.card button.btn.btn-primary {
+  font-size: 1rem;
+}
+
+  @media only screen and (min-width: 600px) {
+    .card {
+      width: 90%;
+      margin: 0 auto;
+      flex-direction: row;
+    }
+    
+    .card .h5, h5 {
+      font-size: 0.80rem;
+    }
+
+    .card p {
+      font-size: 0.7rem;
+    }
+
+    .card-group>.card:not(:last-child){
+      border-radius: 20px;
+    }
+
+    .card img {
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+      padding: 2%;
+      align-self: center;
+      border-radius: 20px;
+    }
+
+    .card button.btn.btn-primary {
+      font-size: 0.90rem;
+    }
+    
+  }
+
+  @media only screen and (min-width: 768px) {
+    .card {
+      width: 90%;
+      margin: 0 auto;
+      flex-direction: row;
+    }
+    
+    .card .h5, h5 {
+      font-size: 0.80rem;
+    }
+
+    .card p {
+      font-size: 0.7rem;
+    }
+
+    .card-group>.card:not(:last-child){
+      border-radius: 20px;
+    }
+    
+    .card img {
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+      padding: 2%;
+      align-self: center;
+      border-radius: 20px;
+    }
+
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .card {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+      flex-direction: row;
+    }
+    
+    .card .h5, h5 {
+      font-size: 1.5rem;
+      flex-grow: 1;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+    }
+
+    .card-group>.card:not(:last-child){
+      border-radius: 20px;
+    }
+    
+    .card img {
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+      padding: 2%;
+      align-self: center;
+      border-radius: 20px;
+    }
+
+    .card button.btn.btn-primary {
+      font-size: 1.5rem;
+    }
+}
